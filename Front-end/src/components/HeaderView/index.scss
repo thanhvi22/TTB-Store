@@ -1,0 +1,47 @@
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  color: #999;
+  transition: all 0.3s;
+  &:hover,
+  &:active {
+    color: #3a5dd9;
+    transform: scale(1.2);
+  }
+}
+
+.navbar-tool-item {
+  padding-left: 32px;
+  transition: all 0.3s;
+
+  .icon {
+    color: #999;
+    font-size: 28px;
+  }
+
+  .title {
+    color: #999;
+    font-weight: 500;
+  }
+
+  &:hover,
+  &:active {
+    .icon,
+    .title {
+      color: #3a5dd9;
+    }
+  }
+}
+
+.search-bar-wrapper {
+  max-width: 55%;
+}
+
+.search-bar {
+  & input {
+    outline: none;
+    &:focus {
+      border-color: transparent;
+    }
+  }
+}
