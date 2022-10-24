@@ -12,3 +12,16 @@ dummy_database
 /firebase
 Front-end/src/assets/.DS_Store
 Front-end/src/assets/imgs/.DS_Store
+<<<<<<< Updated upstream
+=======
+Back-end/src/configs/mail.config.js
+*.js
+Front-end/index.html
+*.html
+Front-end/src/assets/imgs/logo.png
+*.png
+Front-end/src/assets/imgs/sec_logo.png
+*.png
+>>>>>>> Stashed changes
+Front-end/src/assets/imgs/logo.png
+Front-end/src/assets/imgs/sec_logo.png
