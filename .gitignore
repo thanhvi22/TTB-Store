@@ -10,3 +10,5 @@ debug.log
 Back-end/build
 dummy_database
 /firebase
+Front-end/src/assets/.DS_Store
+Front-end/src/assets/imgs/.DS_Store
