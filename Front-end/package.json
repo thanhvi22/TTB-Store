@@ -1,8 +1,9 @@
 {
-  "name": "TTB_Store",
+  "name": "TTB_Store", 
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "start": "webpack-dev-server --open --port 8080",
     "watch": "webpack --config webpack.config.js --env.mode=development --port 8080 --watch",
@@ -37,6 +38,7 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+    
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
