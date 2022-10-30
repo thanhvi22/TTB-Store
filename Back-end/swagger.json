@@ -1,11 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "API dành cho trang web TTB Store",
+    "description": "API dành cho trang web Mango",
     "version": "1.0.0",
-    "title": "TTB Store API",
+    "title": "Mango Store API",
     "contact": {
-      "email": "tuannguyentn2504@gmail.com"
+      "email": "binhpvpd04285@fpt.edu.com.vn"
     }
   },
   "basePath": "/",

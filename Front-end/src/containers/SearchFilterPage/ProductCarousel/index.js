@@ -5,9 +5,10 @@ import './index.scss';
 // Do cả chương trình chỉ có 1 list carousel
 // Nên lưu thẳng vào đây để đỡ tốn chi phí query
 const list = [
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752561/saleOff/carousels/unnamed_2_d2ccjd.webp',
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752560/saleOff/carousels/unnamed_flqfng.webp',
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752560/saleOff/carousels/unnamed_1_t5luv4.webp',
+  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/EXB-500k-380x200_b9cz1l.png',
+  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/VNPay-Toan-bo-san-pham-380x200_bhipaq.png',
+  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VnPaylaptop-380x200_py2nla.png',
+  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VNPayAppleWatch-380x200_fhi2lg.png',
 ];
 
 function ProductCarousel() {
