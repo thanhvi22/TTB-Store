@@ -19,25 +19,25 @@ function FooterView() {
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn mua hàng</h2>
             <h2 className="footer-contact-item">
-              <b>0840.67.9081</b>
+              <b>079.70252.15</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn đào tạo</h2>
             <h2 className="footer-contact-item">
-              <b>0841.67.9111</b>
+              <b>079.70252.15</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn quảng cáo</h2>
             <h2 className="footer-contact-item">
-              <b>0842.67.9022</b>
+              <b>079.70252.15</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Hỗ trợ kỹ thuật</h2>
             <h2 className="footer-contact-item">
-              <b>090.267.9011</b>
+              <b>079.70252.15</b>
             </h2>
           </div>
         </div>
@@ -55,8 +55,8 @@ function FooterView() {
           54 Nguyễn Văn Linh, Quận Hải Châu, Thành phố Đà Nẵng.
           <br />
           <strong>Điện&nbsp;thoại:</strong>&nbsp;0840.67.9081 |{' '}
-          <strong>Email:</strong>&nbsp;ttbstore@gmail.com&nbsp;|{' '}
-          <strong>Website:</strong>&nbsp;<a href="/">ttbstore.vn</a>
+          <strong>Email:</strong>&nbsp;MANGO STORE@gmail.com&nbsp;|{' '}
+          <strong>Website:</strong>&nbsp;<a href="/">MANGO STORE.vn</a>
         </p>
         <div className="d-flex align-i-center justify-content-center">
           <img src={registeredImg} width={175} />
