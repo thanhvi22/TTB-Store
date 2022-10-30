@@ -51,5 +51,5 @@
     > browser: http://localhost:{ PORT | 3000 }
   ```
 - ## 🌍 **Document API**
-  `> browser: http://localhost:{PORT}/api-docs/`
+  `> browser: http://localhost:3000/api-docs/`
 
