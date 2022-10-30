@@ -46,14 +46,13 @@ function FooterView() {
       <div className="container p-tb-32">
         <p className="t-center" style={{ color: '#888' }}>
           <span className="font-size-18px">
-            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ TTB STORE
+            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ MANGO STORE
           </span>
           <br />
-          <strong>Trụ sở:</strong>&nbsp;Số 16 VillaD, The Manor, khu đô thị mới
-          Mỹ Đình Mễ Trì, Phường 1, Quận 12, Thành phố Hồ Chí Minh
+          <strong>Trụ sở:</strong>&nbsp;Số 16 , Nguyễn Văn Linh, khu đô thị FPT, Thành phố Đà Nẵng
           <br />
-          <strong>Văn phòng:</strong>&nbsp; Tầng 16, Tòa Văn phòng, Vincom, số
-          54 Nguyễn Chí Thanh, Phường 5, Quận 12, Thành phố Hồ Chí Minh
+          <strong>Văn phòng:</strong>&nbsp; Tầng 16, Tòa Văn phòng, PHILONG, số
+          54 Nguyễn Văn Linh, Quận Hải Châu, Thành phố Đà Nẵng.
           <br />
           <strong>Điện&nbsp;thoại:</strong>&nbsp;0840.67.9081 |{' '}
           <strong>Email:</strong>&nbsp;ttbstore@gmail.com&nbsp;|{' '}
@@ -65,7 +64,7 @@ function FooterView() {
             <img src={iconPhoneFooter} />
             <div className="t-center m-l-16">
               <h2 style={{ color: '#CE1F26' }}>Hotline</h2>
-              <h2 style={{ color: '#CE1F26' }}>0840.67.9088</h2>
+              <h2 style={{ color: '#CE1F26' }}>079.70252.15</h2>
             </div>
           </div>
           <div className="d-flex">

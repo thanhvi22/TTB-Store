@@ -1694,7 +1694,7 @@ export default {
   MAX_RELATED_PRODUCTS: 12,
   // Avatar mặc định của user
   DEFAULT_USER_AVT:
-    'https://res.cloudinary.com/tuan-cloudinary/image/upload/c_scale,q_60,w_80/v1607750466/defaults/default-avatar_amkff5.jpg',
+    'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491525/products/100x100-TGDD-100x100_gpj7pw.png',
   // Số comment sản phẩm trên trang
   COMMENT_PER_PAGE: 5,
   // độ dài tối đa của cmt
