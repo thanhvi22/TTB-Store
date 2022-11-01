@@ -4,6 +4,7 @@ const AccountModel = require('../models/account.models/account.model');
 const UserModel = require('../models/account.models/user.model');
 const jwt = require('jsonwebtoken');
 const express = require('express');
+const googleStrategy = require('passport-google-oauth20').Strategy;
 
 //authentication with JWT
 const jwtAuthentication = async (req, res, next) => {
@@ -43,7 +44,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://www.example.com/auth/google/callback",
+      
     },
     async (accessToken, refreshToken, profile, done) => {
       try {
