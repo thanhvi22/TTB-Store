@@ -19,25 +19,25 @@ function FooterView() {
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn mua hàng</h2>
             <h2 className="footer-contact-item">
-              <b>079.70252.15</b>
+              <b>0840.67.9081</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn đào tạo</h2>
             <h2 className="footer-contact-item">
-              <b>079.70252.15</b>
+              <b>0841.67.9111</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn quảng cáo</h2>
             <h2 className="footer-contact-item">
-              <b>079.70252.15</b>
+              <b>0842.67.9022</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Hỗ trợ kỹ thuật</h2>
             <h2 className="footer-contact-item">
-              <b>079.70252.15</b>
+              <b>090.267.9011</b>
             </h2>
           </div>
         </div>
@@ -46,17 +46,16 @@ function FooterView() {
       <div className="container p-tb-32">
         <p className="t-center" style={{ color: '#888' }}>
           <span className="font-size-18px">
-            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ MANGO STORE
+            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ NHÓM PHAN VĂN BÌNH
           </span>
           <br />
-          <strong>Trụ sở:</strong>&nbsp;Số 16 , Nguyễn Văn Linh, khu đô thị FPT, Thành phố Đà Nẵng
+          <strong>Trụ sở:</strong>&nbsp;Số 123 , Đường Nguyễn Văn Linh, Quận Sơn Trà, Thành Phố Đà Nẵng
           <br />
-          <strong>Văn phòng:</strong>&nbsp; Tầng 16, Tòa Văn phòng, PHILONG, số
-          54 Nguyễn Văn Linh, Quận Hải Châu, Thành phố Đà Nẵng.
+          <strong>Văn phòng:</strong>&nbsp; Tần 10 Tòa Nhà PhiLong
           <br />
-          <strong>Điện&nbsp;thoại:</strong>&nbsp;0840.67.9081 |{' '}
-          <strong>Email:</strong>&nbsp;MANGO STORE@gmail.com&nbsp;|{' '}
-          <strong>Website:</strong>&nbsp;<a href="/">MANGO STORE.vn</a>
+          <strong>Điện&nbsp;thoại:</strong>&nbsp;079.7025.215 |{' '}
+          <strong>Email:</strong>&nbsp;phanvanbinh@gmail.com&nbsp;|{' '}
+          <strong>Website:</strong>&nbsp;<a href="/">ttbstore.vn</a>
         </p>
         <div className="d-flex align-i-center justify-content-center">
           <img src={registeredImg} width={175} />
@@ -64,7 +63,7 @@ function FooterView() {
             <img src={iconPhoneFooter} />
             <div className="t-center m-l-16">
               <h2 style={{ color: '#CE1F26' }}>Hotline</h2>
-              <h2 style={{ color: '#CE1F26' }}>079.70252.15</h2>
+              <h2 style={{ color: '#CE1F26' }}>0840.67.9088</h2>
             </div>
           </div>
           <div className="d-flex">

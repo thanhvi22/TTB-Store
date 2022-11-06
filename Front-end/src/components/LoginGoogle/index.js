@@ -74,7 +74,7 @@ function LoginGoogle(props) {
 }
 
 LoginGoogle.defaultProps = {
-  title: 'Google+',
+  title: 'Google',
   className: '',
 };
 

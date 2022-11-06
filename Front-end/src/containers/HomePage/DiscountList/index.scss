@@ -5,9 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 576px;
+  // nơi đây chứa ảnh background quản cáo sản phầm
   &.bg {
     &-0 {
-      background: url("https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608136122/saleOff/kara_u21ou3.jpg");
+      background: url("https://res.cloudinary.com/dgewhp8gl/image/upload/v1663935355/cld-sample-5.jpg");
     }
     &-1 {
       background: url("https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608136122/saleOff/laptop_baavwf.jpg");

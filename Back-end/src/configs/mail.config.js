@@ -3,10 +3,13 @@ const nodemailer = require('nodemailer');
 
 // configure option
 const option = {
-  host: 'smtp.gmail.com',
-  port: 465,
+  // service: gmail,
+  host: 'pop.gmail.com',
+  port: 995,
   secure: true,
   auth: {
+    // user: "phaitotnghiepweb16302@gmail.com",
+    // pass: "njpwcvufiziyoptt",
     user: process.env.NODE_MAILER_USER,
     pass: process.env.NODE_MAILER_PASSWORD,
   },
@@ -22,9 +25,9 @@ const sendEmail = async ({ to, subject, text, html, ...rest }) => {
       //config mail
       const mail = {
         //sender access
-        from: '"Mango" <no-reply@accounts.Mango.com>',
+        from: from,
         //receiver access
-        to,
+        to: 'phaitotnghiepweb16302',
         //subject
         subject,
         //content text
@@ -47,7 +50,7 @@ const sendEmail = async ({ to, subject, text, html, ...rest }) => {
 };
 
 const headerHtmlMail = `<h1 style="color: #4c649b; font-size: 48px; border-bottom: solid 2px #ccc;padding-bottom: 10px">
-Mango<br />
+      TTB Store<br />
     </h1>`;
 const footerHtmlVerifyMail = `<h3 style="color: red">
         Chú ý: Không đưa mã này cho bất kỳ ai,
@@ -62,8 +65,8 @@ const htmlSignupAccount = (token) => {
     ${headerHtmlMail}
     <h2 style="padding: 10px 0; margin-bottom: 10px;">
         Xin chào anh (chị),<br />
-        Mã xác nhận đăng ký tài khoản cho website Mango của anh (chị).<br />
-        Cảm ơn vì đã ghé thăm Mango <3
+        Mã xác nhận đăng ký tài khoản cho website TTB Store của anh (chị).<br />
+        Cảm ơn vì đã ghé thăm TTB Store <3
     </h2>
     <h3 style="background: #eee;padding: 10px;">
       <i><b>${token}</b></i>
@@ -78,7 +81,7 @@ const htmlResetPassword = (token) => {
     ${headerHtmlMail}
     <h2 style="padding: 10px 0; margin-bottom: 10px;">
         Xin chào anh (chị),<br />
-        Cửa hàng Mango đã nhận được yêu cầu lấy lại mật khẩu từ quý khách.<br />
+        Cửa hàng TTB Store đã nhận được yêu cầu lấy lại mật khẩu từ quý khách.<br />
         Đừng lo lắng, hãy nhập mã này để khôi phục:
     </h2>
     <h1 style="background: #eee;padding: 10px;">
@@ -97,7 +100,7 @@ const htmlWarningLogin = () => {
         Cửa hàng nghi ngờ có ai đó đã cố gắng đăng nhập vào tài khoản của quý khách.<br />
         Nếu quý khác không nhớ mật khẩu hãy nhấn vào "Quên mật khẩu" để lấy lại mật khẩu<br/>
     </h2>
-    <h1>Mango Cảm ơn.</h1>
+    <h1>Cảm ơn.</h1>
   </div>`;
 };
 

@@ -22,8 +22,6 @@ const commentApi = require('./src/apis/comment.api');
 const userApi = require('./src/apis/user.api');
 const orderApi = require('./src/apis/order.api');
 const statisticApi = require('./src/apis/statistic.api');
-// const passport = require("passport");
-// const passportSetup = require("./passport.middleware.js");
 
 // ! ================== set port ================== //
 const app = express();
