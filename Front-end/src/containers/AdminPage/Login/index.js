@@ -27,7 +27,7 @@ function Login(props) {
             label="Username"
             name="userName"
             rules={[
-              { required: true, message: 'Vui lòng nhập username của bạn!' },
+              { required: true, message: 'Please input your username!' },
             ]}>
             <Input />
           </Form.Item>
@@ -37,7 +37,7 @@ function Login(props) {
             label="Mật khẩu"
             name="password"
             rules={[
-              { required: true, message: 'vui lòng nhập password của bạn!' },
+              { required: true, message: 'Please input your password!' },
             ]}>
             <Input.Password />
           </Form.Item>

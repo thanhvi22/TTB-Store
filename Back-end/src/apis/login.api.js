@@ -6,7 +6,7 @@ const passportAuth = require('../middlewares/passport.middleware');
 const passport = require('passport');
 
 // api: login with local
-loginApi.post('./', loginController.postLogin);
+loginApi.post('/', loginController.postLogin);
 
 // api: login with gg
 loginApi.post(

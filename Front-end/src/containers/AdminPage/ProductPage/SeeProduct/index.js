@@ -89,18 +89,6 @@ function SeeProduct() {
         </a>
       ),
     },
-    //vừa thêm vào
-    {
-      title: 'Hình Ảnh',
-      key: 'code',
-      dataIndex: 'code',
-      render: (code, data) => (
-        <a target="blank" href={`/product/${data._id}`}>
-          {code}
-        </a>
-      ),
-    },
-    //kết thúc hình ảnh
     {
       title: 'Tên',
       key: 'name',

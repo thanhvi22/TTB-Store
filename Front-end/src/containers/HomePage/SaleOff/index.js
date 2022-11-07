@@ -5,19 +5,18 @@ import './index.scss';
 // Do cả chương trình chỉ có 1 list carousel
 // Nên lưu thẳng vào đây để đỡ tốn chi phí query
 const list = [
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/EXB-500k-380x200_b9cz1l.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/VNPay-Toan-bo-san-pham-380x200_bhipaq.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VnPaylaptop-380x200_py2nla.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VNPayAppleWatch-380x200_fhi2lg.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/EXB-500k-380x200_b9cz1l.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/VNPay-Toan-bo-san-pham-380x200_bhipaq.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VnPaylaptop-380x200_py2nla.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VNPayAppleWatch-380x200_fhi2lg.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/EXB-500k-380x200_b9cz1l.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491673/products/VNPay-Toan-bo-san-pham-380x200_bhipaq.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VnPaylaptop-380x200_py2nla.png',
-  'https://res.cloudinary.com/dgewhp8gl/image/upload/v1666491647/products/VNPayAppleWatch-380x200_fhi2lg.png',
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608134778/saleOff/carousels/13_ytp67u.webp',
+  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608134777/saleOff/carousels/8_ontuqq.webp',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667805799/SaleOff/carousels/iphone-13-pro-max-case_o3d7t6.jpg',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667805798/SaleOff/carousels/iphone-12-banner-1_jnkyvn.png',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1666770395/SaleOff/carousels/popupimage-1676288705_da5ys9.jpg',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667555786/SaleOff/carousels/carytp67u01_yu0nf7.webp',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667555786/SaleOff/carousels/carcrycbe02_rpqqxv.webp',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667555785/SaleOff/carousels/carvhqqe103_vjlcrq.webp',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667555786/SaleOff/carousels/carousels04_ugkxff.webp',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667805798/SaleOff/carousels/sub-bannerArtboard-1_hsve4g.jpg',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667805798/SaleOff/carousels/collection-banner_iPhone_Cases_Desktop_ponxuq.jpg',
+  'https://res.cloudinary.com/mang013022002/image/upload/v1667805797/SaleOff/carousels/iphone-evolution-blog-banner_wibvs9.jpg',
+
 ];
 
 function SaleOff() {

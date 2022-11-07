@@ -23,19 +23,19 @@ function CustomerList() {
     {
       title: 'ID',
       key: 'id',
-      dataIndex: 'id',
+      dataIndex: '_id',
       render: (v) => <a>{v}</a>,
     },
-    {
-      title: 'Email',
-      key: 'email',
-      dataIndex: 'email',
-    },
-    {
-      title: 'Loại tài khoản',
-      key: 'authType',
-      dataIndex: 'authType',
-    },
+    // {
+    //   title: 'Email',
+    //   key: 'email',
+    //   dataIndex: 'email',
+    // },
+    // {
+    //   title: 'Loại tài khoản',
+    //   key: 'authType',
+    //   dataIndex: 'authType',
+    // },
     {
       title: 'Họ tên',
       key: 'fullName',
@@ -65,7 +65,7 @@ function CustomerList() {
           placement="left"
           cancelText="Huỷ bỏ"
           okText="Xoá"
-          onConfirm={() => onDelCustomer(records.id)}>
+          onConfirm={() => onDelCustomer(records._id)}>
           <Button danger>Xoá</Button>
         </Popconfirm>
       ),
@@ -80,16 +80,18 @@ function CustomerList() {
         const response = await adminApi.getCustomerList();
         if (isSubscribe && response) {
           const { list } = response.data;
+          
           const newList = list.map((item, index) => {
             return {
-              key: index,
-              id: item._id,
-              email: item.accountId.email,
-              birthday: item.birthday,
-              fullName: item.fullName,
-              address: item.address,
-              gender: item.gender,
-              authType: item.accountId.authType,
+              ...item, key: index 
+              // key: index,
+              // id: item._id,
+              // email: item.accountId.email,
+              // birthday: item.birthday,
+              // fullName: item.fullName,
+              // address: item.address,
+              // gender: item.gender,
+              // authType: item.accountId.authType,
             };
           });
           setData([...newList]);

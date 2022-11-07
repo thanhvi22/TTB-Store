@@ -277,6 +277,9 @@ const getCustomerList = async (req, res, next) => {
       path: 'accountId',
       select: 'email authType -_id',
     });
+    //kiểm tra DB
+    console.log(list);
+    // 
     return res.status(200).json({ list });
   } catch (error) {
     console.error(error);
