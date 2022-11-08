@@ -7,7 +7,7 @@ function CustomerList() {
   const [isLoading, setIsLoading] = useState(true);
 
   // event: xoá tài khoản
-  const onDelCustomer = async (_id) => {
+  const onDelCustomer = async (id) => {
     try {
       const response = await adminApi.delCustomer(id);
       if (response && response.status === 200) {
