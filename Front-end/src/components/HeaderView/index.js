@@ -134,8 +134,10 @@ function HeaderView() {
         <Link to="/">
           <img
             src={logoUrl}
-            width={isSmDevice ? 78 : 112}
-            height={isSmDevice ? 36 : 48}
+            // width={isSmDevice ? 78 : 112}
+            // height={isSmDevice ? 36 : 48}
+            width="auto" 
+            height="155"
           />
         </Link>
 
