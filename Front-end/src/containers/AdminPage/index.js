@@ -169,7 +169,9 @@ function AdminPage() {
             className="d-flex align-i-center"
             style={{ height: '72px', backgroundColor: mainColor }}>
             <div className="logo t-center" style={{ flexBasis: '200px' }}>
-              <img width={100} height={48} src={logoUrl} />
+              <img width="auto" 
+                   height="140" 
+                    src={logoUrl} />
             </div>
             <div className="flex-grow-1 d-flex align-i-center">
               <h2 className="t-color-primary flex-grow-1 p-l-44 main-title">
