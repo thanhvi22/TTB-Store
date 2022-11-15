@@ -33,10 +33,10 @@ function HomePage() {
         </Col>
 
         <Col span={24} className="adv box-sha-home bor-rad-8 m-b-32">
-          <a href="https://www.apple.com/watch/" target="blank">
+          <a href="https://www.topzone.vn/khuyen-mai-hot" target="blank">
             <img
               className="adv-img w-100 bor-rad-8"
-              src="https://res.cloudinary.com/mang013022002/image/upload/v1667556074/others/others1_fmm5b8.webp"
+              src="https://res.cloudinary.com/dgewhp8gl/image/upload/v1668483118/products/banner/sntop-2-1200-100-1200x100_qg7ghq.png"
             />
           </a>
         </Col>
@@ -52,10 +52,10 @@ function HomePage() {
         </Col>
 
         <Col span={24} className="adv box-sha-home bor-rad-8 m-b-32">
-          <a href="https://www.panasonic.com/vn/" target="blank">
+          <a href="https://www.thegioididong.com/chi-ban-online" target="blank">
             <img
               className="adv-img w-100 bor-rad-8"
-              src="https://res.cloudinary.com/mang013022002/image/upload/v1667556143/others/others2_isifqp.webp"
+              src="https://res.cloudinary.com/dgewhp8gl/image/upload/v1668483271/products/banner/TaglineDienThoaiTGDD-1200x170_klnljt.png"
             />
           </a>
         </Col>
