@@ -1,5 +1,5 @@
 import React from 'react';
-import messageIcon from 'assets/imgs/logo-message1.png';
+import messageIcon from 'assets/imgs/logo-message.png';
 import { Tooltip } from 'antd';
 import './index.scss';
 
