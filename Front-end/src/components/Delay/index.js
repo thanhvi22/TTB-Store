@@ -18,6 +18,7 @@ function Delay(props) {
     };
   }, []);
 
+  // eslint-disable-next-line react/prop-types
   return waiting === true ? null : props.children;
 }
 
