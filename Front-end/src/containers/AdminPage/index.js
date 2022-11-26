@@ -170,7 +170,7 @@ function AdminPage() {
             </div>
             <div className="flex-grow-1 d-flex align-i-center">
               <h2 className="t-color-primary flex-grow-1 p-l-44 main-title">
-                <span>Admin Page &gt; </span>
+                <span>Trang quản trị &gt; </span>
                 <span className="option-title">
                   {showTitleSelected(keyMenu)}
                 </span>
