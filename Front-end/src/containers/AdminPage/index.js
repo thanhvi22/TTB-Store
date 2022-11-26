@@ -29,43 +29,38 @@ const mainColor = '#141428';
 const menuList = [
   {
     key: 'd',
-    title: 'Dashboard',
+    title: 'Bảng Thống Kê',
     icon: <DashboardOutlined />,
     children: [],
   },
   {
     key: 'p',
-    title: 'Products',
+    title: 'Các sản phẩm',
     icon: <ShoppingCartOutlined />,
     children: [
-      { key: 'p0', title: 'See', icon: <EyeOutlined /> },
-      { key: 'p1', title: 'Add', icon: <PlusCircleOutlined /> },
+      { key: 'p0', title: 'Sản Phẩm Trên Hệ Thống', icon: <EyeOutlined /> },
+      { key: 'p1', title: 'Thêm Sản Phẩm', icon: <PlusCircleOutlined /> },
     ],
   },
   {
     key: 'c',
-    title: 'Customers',
+    title: 'khách hàng',
     icon: <UserOutlined />,
     children: [],
   },
   {
     key: 'a',
-    title: 'Amin Users',
+    title: 'Người Quản Lý',
     icon: <IdcardOutlined />,
     children: [],
   },
   {
     key: 'o',
-    title: 'Order List',
+    title: 'Danh sách đặt hàng',
     icon: <ReconciliationOutlined />,
     children: [],
   },
-  {
-    key: 'm',
-    title: 'Marketing',
-    icon: <NotificationOutlined />,
-    children: [],
-  },
+  
 ];
 
 function AdminPage() {
