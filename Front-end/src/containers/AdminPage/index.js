@@ -182,7 +182,7 @@ function AdminPage() {
                   className="icon font-size-28px t-color-primary m-r-10"
                   style={{ transform: 'translateY(3px)' }}
                 />
-                <span className="open-web-title">Open the website</span>
+                <span className="open-web-title">mở trang web</span>
               </a>
               <div className="user-admin p-r-24 t-color-primary font-weight-500">
                 <Avatar size={36} className="m-r-10" src={defaultAvt} />
