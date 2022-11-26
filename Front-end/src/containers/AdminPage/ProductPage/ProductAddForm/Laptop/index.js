@@ -12,6 +12,7 @@ const CPU_SERIES = [
   { type: 6, label: 'Ryzen 7' },
   { type: 7, label: 'Pentium' },
   { type: 8, label: 'Celeron' },
+  { type: 9, label: 'AMD' },
 ];
 
 function Laptop() {

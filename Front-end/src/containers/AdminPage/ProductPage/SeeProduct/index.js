@@ -90,6 +90,16 @@ function SeeProduct() {
       ),
     },
     {
+      title: 'Hình Ảnh',
+      key: 'avt',
+      dataIndex: 'avt',
+      render: (avt) => (
+        <img src="" />
+      ),
+    },
+    
+   
+    {
       title: 'Tên',
       key: 'name',
       dataIndex: 'name',
@@ -97,6 +107,8 @@ function SeeProduct() {
         <Tooltip title={name}>{helpers.reduceProductName(name, 40)}</Tooltip>
       ),
     },
+    
+   
     {
       title: 'Giá',
       key: 'price',

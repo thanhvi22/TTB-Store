@@ -56,6 +56,7 @@ function EditProductModal(props) {
         onFinish={(value) => onEdit(value)}>
         <Row gutter={[16, 16]}>
           {/* Id */}
+          
           <Col span={12}>
             <Form.Item name="_id">
               <Input disabled size="large" placeholder="ID" />
@@ -82,7 +83,20 @@ function EditProductModal(props) {
               ]}>
               <Input size="large" placeholder="Tên sản phẩm *" />
             </Form.Item>
+
           </Col>
+
+           {/* Hình Ảnh Sản Phẩm */}
+           <Col span={12}>
+            <Form.Item
+              avt="Avatar sản phẩm"
+              rules={[
+                { required: true, message: 'Bắt buộc', whitespace: true },
+              ]}>
+              <Input size="large" placeholder="Avatar sản phẩm" />
+            </Form.Item>
+          </Col>
+
 
           {/* Giá sản phẩm */}
           <Col span={12}>
