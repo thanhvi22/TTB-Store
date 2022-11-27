@@ -68,6 +68,16 @@ function OrderList() {
       dataIndex: 'owner',
     },
     {
+      title: 'Hình Ảnh',
+      key: 'avt',
+      dataIndex: 'avt',
+      render: (avt) => (
+
+        <img className="max-w-100 max-h-100" src={avt} alt="Product Photo" />
+
+      ),
+    },
+    {
       title: 'Mã đơn hàng',
       key: 'orderCode',
       dataIndex: 'orderCode',
