@@ -73,7 +73,7 @@ function OrderList() {
       dataIndex: 'avt',
       render: (avt) => (
 
-        <img className="max-w-100 max-h-100" src={avt} alt="Product Photo" />
+        <img className="max-w-100 max-h-100" src={avt} alt="Ảnh Đơn Hàng" />
 
       ),
     },
