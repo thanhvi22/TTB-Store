@@ -94,7 +94,9 @@ function SeeProduct() {
       key: 'avt',
       dataIndex: 'avt',
       render: (avt) => (
-        <img src="" />
+
+        <img className="max-w-100 max-h-100" src={avt} alt="Product Photo" />
+
       ),
     },
     

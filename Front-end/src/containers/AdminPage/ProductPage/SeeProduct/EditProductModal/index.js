@@ -86,7 +86,7 @@ function EditProductModal(props) {
 
           </Col>
 
-           {/* Hình Ảnh Sản Phẩm */}
+           {/* Hình Ảnh Sản Phẩm
            <Col span={12}>
             <Form.Item
               avt="Avatar sản phẩm"
@@ -95,7 +95,7 @@ function EditProductModal(props) {
               ]}>
               <Input size="large" placeholder="Avatar sản phẩm" />
             </Form.Item>
-          </Col>
+          </Col> */}
 
 
           {/* Giá sản phẩm */}
