@@ -1,8 +1,15 @@
+
+
+
+
+
 import { Button, message, Modal, Radio, Spin, Table, Tooltip } from 'antd';
 import adminApi from 'apis/adminApi';
 import helpers from 'helpers';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+
+
 
 function generateFilterOrder() {
   let result = [];
@@ -15,6 +22,9 @@ function generateFilterOrder() {
 function OrderList() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+
+  //
+  
 
   // event: Cập nhật trạng thái đơn hàng
   const updateOrderStatus = async (id, orderStatus) => {
@@ -63,12 +73,29 @@ function OrderList() {
 
   const columns = [
     {
-      title: 'khách hàng',
+      title: ' Mã Khách Hàng',
       key: 'owner',
       dataIndex: 'owner',
     },
+    
     {
-      title: 'Hình Ảnh',
+      title: 'Họ tên',
+      key: 'fullName',
+      dataIndex: 'fullName',
+    },
+    {
+      title: 'Mã Sản Phẩm',
+      key: 'code',
+      dataIndex: 'code',
+      render: (code, data) => (
+        <a target="blank" href={`/product/${data._id}`}>
+          {code}
+        </a>
+      ),
+    },
+
+    {
+      title: 'Hình Ảnh Mặt Hàng',
       key: 'avt',
       dataIndex: 'avt',
       render: (avt) => (
@@ -77,6 +104,7 @@ function OrderList() {
 
       ),
     },
+    
     {
       title: 'Mã đơn hàng',
       key: 'orderCode',
